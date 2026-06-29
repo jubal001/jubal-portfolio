@@ -180,4 +180,31 @@ flex-direction:column;
 gap:15px;
 }
 
+.project-card ul{
+    margin-top:15px;
+    margin-left:20px;
+    color:#ddd;
+}
+
+.project-card li{
+    margin-bottom:8px;
+}
+
+.project-btn{
+    display:inline-block;
+    margin-top:15px;
+    background:#D8A14D;
+    color:#071B34;
+    padding:12px 22px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.project-btn:hover{
+    background:#f1b84b;
+    transform:translateY(-2px);
+}
+
 }
